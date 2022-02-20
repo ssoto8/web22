@@ -1,0 +1,49 @@
+@font-face {
+  src:url(../font/SUNDAY.ttf);
+  font-family: nos;
+}
+p {
+  margin-top: 50vh;
+}
+
+@media only screen and (max-width:768px) {
+  body {
+    background-color: pink;
+  }
+  .mobile-only{
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+  p{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    font-family: nos;
+  }
+  img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  body {
+    background-color: red;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only{
+    display: none;
+  }
+  p{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    font-family: nos;
+  }
+}
