@@ -1,0 +1,27 @@
+@font-face {
+  src:url(../../font/SharpSansDispNo1-Medium.ttf);
+  font-family: nos;
+}
+body {
+   background-color: pink;
+}
+h1{
+   font-size: 45px;
+   font-family: nos;
+   text-decoration: underline;
+   text-align: left;
+}
+h2{
+  font-size: 30px;
+  font-family: nos;
+  text-align: left;
+}
+p{
+  font-size: 20px;
+  font-family: nos;
+  text-align: left;
+}
+div{
+  margin-left: 20px;
+  margin-right: 20px;
+}
